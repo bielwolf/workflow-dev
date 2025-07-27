@@ -44,4 +44,8 @@ VALUES
    ('O Hobbit', 230, 1, 1),
    ('O Silmarillion', 400, 1, 1),
    ('O Silmarillion', 400, 1, 1),
-   ('O Feiticeiro de Terramar', 450, 2,
+   ('O Feiticeiro de Terramar', 450, 2, 2),
+   ('Os Despossuídos', 300, 2, 3),
+   ('Memórias Póstumas de Brás Cubas', 150, 3, 4);
+
+.exit
