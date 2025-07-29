@@ -32,7 +32,7 @@ describe('Get em /eventos', () => {
   });
 
   it('Deve retornar erro 404', (done) => {
-    stub.restore()
+    stub.restore();
     stub = sinon.stub(EventosController, 'liberaAcessoEventos').returns(false);
     chai.request(app)
       .get('/eventos')
